@@ -1,2 +1,2 @@
-<? echo 
-	("Mikhail_typing");
+<? 
+ echo ("Mikhail_typing");
