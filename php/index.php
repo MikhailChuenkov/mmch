@@ -1,0 +1,2 @@
+<? echo 
+	("Mikhail_typing");
