@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4. Практика</title>
+</head>
+<body>
+    <script>
+
+var a;
+var b;
+var c;
+        function culc (a, b, oper) {
+            switch (oper) {
+                case "sum":
+                    c = a + b;
+                    console.log("Сложение " + c);
+                    break;
+                case "subt":
+                    c = a - b;
+                    console.log("Вычитание " + c);
+                    break;
+                case "mult":
+                    c = a * b;
+                    console.log("Умножение " + c);
+                    break;
+                case "divi":
+                    c = a / b;
+                    console.log("Деление " + c);
+                    break;
+                        }
+        }
+        culc (2, 3, "sum");
+        culc (2, 3, "subt");
+        culc (2, 3, "mult");
+        culc (2, 3, "divi");
+alert (0 < null); // Тут false так как null - это не конкретное число
+alert (0 <= null); // Почему здесь true ???
+
+    </script>
+</body>
+</html>

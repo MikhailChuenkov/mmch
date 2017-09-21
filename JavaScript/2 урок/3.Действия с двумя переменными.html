@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Практика</title>
+</head>
+<body>
+    <script>
+var a = Number(prompt("Введите число а ")); 
+var b = Number(prompt("Введите число b "));
+if (a >= 0 && b >= 0) {
+    c = a - b;
+    console.log("Разность a и b составила " + c);
+}
+        else if (a < 0 && b < 0) {
+    c = a * b;
+    console.log("Произведение a и b составило " + c);
+}
+        else if ((a > 0 && b < 0) || (a < 0 && b > 0)) {
+    c = a + b;
+    console.log("Сумма a и b составила " + c);
+}
+        
+    </script>
+</body>
+</html>
