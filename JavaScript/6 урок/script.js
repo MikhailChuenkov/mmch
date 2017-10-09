@@ -35,7 +35,7 @@ function buyMotorola() {
     var cellCartProdMotorola = document.createElement("span");
     cellCartProdMotorola.className = "cell_cart_name";
     var priceMotorola = 400;
-    var cellCartProdNameMotorola = "Nokia " + priceMotorola + " p";
+    var cellCartProdNameMotorola = "Motorola " + priceMotorola + " p";
     cellCartProdMotorola.innerText = cellCartProdNameMotorola;
     cart.appendChild(cellCartProdMotorola);
     cellCartProdMotorola.appendChild(cellBr);
@@ -49,7 +49,7 @@ function buyYotaPhon() {
     var cellCartProdYotaPhon = document.createElement("span");
     cellCartProdYotaPhon.className = "cell_cart_name";
     var priceYotaPhon = 500;
-    var cellCartProdNameYotaPhon = "Nokia " + priceYotaPhon + " p";
+    var cellCartProdNameYotaPhon = "YotaPhon " + priceYotaPhon + " p";
     cellCartProdYotaPhon.innerText = cellCartProdNameYotaPhon;
     cart.appendChild(cellCartProdYotaPhon);
     cellCartProdYotaPhon.appendChild(cellBr);
@@ -63,7 +63,7 @@ function sumTotal() {
     var cellSumTotal = document.createElement("span");
     cellSumTotal.className = "cell_cart_name";
 
-    var cellSumTotalRun = priceNokia * n + priceSamsung * s + priceMotorola * m + priceYotaPhon * y;
+    var cellSumTotalRun = (priceNokia * n + priceSamsung * s + priceMotorola * m + priceYotaPhon * y);
     cellSumTotal.innerText = cellSumTotalRun;
     sum.appendChild(cellSumTotal);    
 }
