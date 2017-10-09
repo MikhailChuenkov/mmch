@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+    <div class="conteiner">
+        <div>Товары</div>
+        <div class="product">
+           <div id="nokia">Nokia</div>
+            <img src="img/1.jpg" alt="Фото товара 1">
+            <div>Цена: <span class="price">200</span>р</div>
+            <input type="text" size="4" placeholder="Кол-во">
+            <button onclick="buyNokia()">Купить</button>
+                    
+        </div>
+        <div class="product">
+           <div>Samsung</div>
+            <img src="img/2.jpg" alt="Фото товара 2">
+            <div>Цена: <span class="price">300</span>р</div>
+            <input type="text" size="4" placeholder="Кол-во">
+            <button onclick="buySamsung()">Купить</button>
+        </div>
+        <div class="product">
+           <div>Motorola</div>
+            <img src="img/3.jpg" alt="Фото товара 3">
+            <div>Цена: <span class="price">400</span>р</div>
+            <input type="text" size="4" placeholder="Кол-во">
+            <button onclick="buyMotorola()">Купить</button>
+        </div>
+        <div class="product">
+           <div>YotaPhon</div>
+            <img src="img/4.jpg" alt="Фото товара 4">
+            <div>Цена: <span class="price">500</span>р</div>
+            <input type="text" size="4" placeholder="Кол-во">
+            <button onclick="buyYotaPhon()">Купить</button>
+        </div>
+        <div id="cart">
+            
+        </div>
+        <button id="sum" onclick="sumTotal()">Посчитать сумму</button>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

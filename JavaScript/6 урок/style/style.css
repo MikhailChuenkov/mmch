@@ -1,0 +1,25 @@
+.conteiner {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    display: block;
+}
+.product {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    margin: 25px;
+    
+}
+img {
+    width: 160px;
+    margin: 10px;
+}
+#cart {
+    clear: both;
+}
+.cell_cart_name {
+    display: block;    
+}
